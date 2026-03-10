@@ -1,4 +1,4 @@
-import urlIcon from './../assets/Icon.svg';
+import urlIcon from './../assets/icon.svg';
 import featuresStyles from './Features.module.scss';
 
 const Features = () => {
