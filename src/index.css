@@ -52,3 +52,15 @@ h1, h2, h3, h4, h5, h6 {
   line-height: inherit;
   color: inherit;
 }
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none; 
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+  -webkit-tap-highlight-color: transparent; 
+}

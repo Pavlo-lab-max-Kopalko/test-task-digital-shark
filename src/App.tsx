@@ -1,16 +1,14 @@
-// import { useState } from 'react';
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
 import Dominator from './Dominator/Dominator';
 import Features from './Features/Features';
+import Footer from './Footer/Footer';
 import Header from './Header/Header';
+import Matrics from './Matrics/Matrics';
+import NewStage from './NewStage/NewStage';
 import Partner from './Partner/Partner';
 import Upcoming from './Upcoming/Upcoming';
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
       <div className='app'>
@@ -21,14 +19,11 @@ function App() {
           <Upcoming />
           <Features />
           <Partner />
-          <section>
-            <h3>Matrics that say more</h3>
-          </section>
+          <Matrics />
+          <NewStage />
         </main>
 
-        <footer>
-
-        </footer>
+        <Footer />
       </div>
     </>
   );

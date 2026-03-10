@@ -1,0 +1,53 @@
+.newStage {
+
+  @media (min-widht: 1920px) {
+    width: 1679.5px;
+  }
+
+  width: 1280.8px;
+  max-width: 1679.5px;
+  height: 539.8px;
+  border-radius: 9px;
+  margin: 0 auto 150px;
+  background: linear-gradient(135deg, #F33F7F 0%, #5A1F3300 100%);
+  
+  &__title {
+    font-family: var(--main-font);
+    font-weight: 900;
+    color: var(--main-text-color);
+    font-size: 80px;
+    text-align: center;
+    padding-top: 108px;
+    margin-bottom: 60px;
+  }
+
+  &__info {
+    text-align: center;
+    color: var(--main-text-color);
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0;
+    margin-bottom: 40px;
+  }
+
+  &__button {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    display: block;
+    margin: auto;
+    color: var(--main-text-color);
+    padding: 33px 38px;
+    background-color: #ff4f8b;
+    border-radius: 8px;
+    transition: transform .7s;
+
+    &:hover {
+      transform: scale(1.09);
+      transition: transform .7s;
+    }
+  }
+}

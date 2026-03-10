@@ -1,0 +1,123 @@
+.footer {
+  background-color: #492035;
+
+  &__wrapper {
+    width: 1280px;
+
+    @media (min-widht: 1920px) {
+      width: 1680px;
+    }
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    gap: 411px;
+  }
+
+  &__blockWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__logo {
+    width: 82px;
+    height: 40px;
+    margin-bottom: 28px;
+  }
+
+  &__eightin {
+    width: 32px;
+    height: 28px;
+    margin-bottom: 24px;
+  }
+
+  &__insta, &__linkedin {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__insta {
+    margin-right: 24px;
+  }
+
+  &__info {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0;
+    color: var(--main-text-color);
+    opacity: 0.6;
+    margin-bottom: 24px;
+  }
+
+  &__email {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0;
+    color: var(--second-text-color);
+    margin-bottom: 24px;
+  }
+
+  &__references {
+    width: 118px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  &__link {
+    white-space: nowrap;
+    color: var(--main-text-color);
+    opacity: 0.6;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0;
+  }
+
+  &__blockTitle {
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0;
+    color: var(--main-text-color);
+    text-transform: uppercase;
+  }
+
+  &__linearUnder {
+    width: 1280px;
+
+    @media (min-widht: 1920px) {
+      width: 1680px;
+    }
+
+    margin: 90px auto 80px;
+  }
+
+  &__linear {
+    width: auto;
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.6;
+    margin-bottom: 24px;
+  }
+
+  &__endOfPage {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0;
+    color: var(--main-text-color);
+    opacity: 0.6;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,151 @@
+.matrics {
+  margin: 0 auto 120px;
+
+  &__title {
+    font-family: var(--main-font);
+    font-weight: 900;
+    color: var(--main-text-color);
+    font-size: 80px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 60px;
+  }
+
+  &__wrapper {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    gap: 8px;
+  }
+
+  &__block {
+    height: 383px;
+    width: 210.56px;
+    background-color: #492035;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__contentWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  &__blockTitle, 
+  &__blockDescribe, 
+  &__thirdBlockTitle__2,
+  &__thirdBlockTitle,
+  &__middleBlockDescribe,
+  &__thirdBlockDescribe,
+  &__thirdBlockDescribe__2 {
+    width: fit-content;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    font-weight: 900;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  
+  &__blockTitle {
+    font-size: 60px;
+    line-height: 90px;
+  }
+
+  &__middleBlockDescribe {
+    font-size: 34px;
+    line-height: 34px;
+  }
+
+  &__blockDescribe {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+  }
+
+  &__middleBlock {
+    width: 326px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  &__middleBlockWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #492035;
+    border-radius: 8px;
+
+    &__1 {
+      width: 326px;
+      height: 163px;
+    }
+
+    &__2 {
+      width: 326px;
+      height: 208px;
+    }
+  }
+
+  &__thirdBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__thirdBlockWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #492035;
+
+    &__1 {
+      width: 208px;
+      height: 163px;
+    }
+
+    &__2 {
+      width: 210.5px;
+      height: 208px;
+    }
+  }
+
+  &__thirdBlockTitle {
+    font-size: 60px;
+    line-height: 90px;
+    letter-spacing: 0;
+  }
+
+  &__thirdBlockDescribe {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0;
+
+    &__2 {
+      font-size: 34px;
+      line-height: 34px;
+    }
+  }
+
+  &__block,
+  &__middleBlockWrapper,
+  &__thirdBlockWrapper {
+    transition: transform .4s;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: transform .7s;
+    }
+  }
+}
