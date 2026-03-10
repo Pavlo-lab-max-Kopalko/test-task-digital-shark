@@ -1,11 +1,11 @@
 .header {
   margin-inline: 120px;
-
-  background: radial-gradient(ellipse 160% 120% at 0% 0%,
-      #F33F7F 0%,
-      #5A1F33 45%,
-      #1A0A1000 100%);
-
+  background: radial-gradient(
+    ellipse 160% 120% at 0% 0%,
+    #f33f7f 0%,
+    #5a1f33 45%,
+    #1a0a1000 100%
+  );
   border-radius: 8px;
   width: auto;
 
@@ -17,14 +17,14 @@
   }
 
   &__title {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-weight: 900;
     font-size: 80px;
     text-transform: uppercase;
   }
 
   &__describe {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-weight: 500;
     font-size: 32px;
     line-height: 32px;
@@ -34,22 +34,20 @@
   }
 
   &__start {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: #fff;
     line-height: 16px;
     letter-spacing: 0;
-
     padding: 32px 71.5px;
     background-color: #ff4f8b;
     border-radius: 8px;
-
-    transition: transform .7s;
+    transition: transform 0.7s;
 
     &:hover {
       transform: scale(1.09);
-      transition: transform .7s;
+      transition: transform 0.7s;
     }
   }
 }

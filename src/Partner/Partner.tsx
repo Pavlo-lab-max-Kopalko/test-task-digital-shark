@@ -1,5 +1,5 @@
-import Animation from '../Animation/Animation';
-import partnerStyles from './Partner.module.scss';
+import Animation from "../components/Animation/Animation";
+import partnerStyles from "./Partner.module.scss";
 
 const Partner = () => {
   return (
@@ -7,9 +7,9 @@ const Partner = () => {
       <h2 className={partnerStyles.partner__title}>PARTNER NETWORK</h2>
 
       <div className={partnerStyles.partner__wrapper}>
-        <Animation vector='forward' />
-        <Animation vector='back' />
-        <Animation vector='forwardPlus' />
+        <Animation vector="forward" />
+        <Animation vector="back" />
+        <Animation vector="forwardPlus" />
       </div>
     </section>
   );

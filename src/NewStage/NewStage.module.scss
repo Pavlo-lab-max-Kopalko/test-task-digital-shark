@@ -1,7 +1,7 @@
 .newStage {
   width: 1280.8px;
 
-  @media (min-width: 1920px) {
+  @media (width >= 1920px) {
     width: 1679.5px;
   }
 
@@ -9,8 +9,8 @@
   height: 539.8px;
   border-radius: 9px;
   margin: 0 auto 150px;
-  background: linear-gradient(135deg, #F33F7F 0%, #5A1F3300 100%);
-  
+  background: linear-gradient(135deg, #f33f7f 0%, #5a1f3300 100%);
+
   &__title {
     font-family: var(--main-font);
     font-weight: 900;
@@ -43,11 +43,11 @@
     padding: 33px 38px;
     background-color: #ff4f8b;
     border-radius: 8px;
-    transition: transform .7s;
+    transition: transform 0.7s;
 
     &:hover {
       transform: scale(1.09);
-      transition: transform .7s;
+      transition: transform 0.7s;
     }
   }
 }

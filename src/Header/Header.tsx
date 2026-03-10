@@ -1,4 +1,4 @@
-import headerStyles from './Header.module.scss';
+import headerStyles from "./Header.module.scss";
 import TopBar from "../Top-bar/TopBar";
 
 const Header = () => {
@@ -14,14 +14,18 @@ const Header = () => {
             Scale Revenue.
           </h1>
 
-          <p className={headerStyles.header__describe}>Dominator Play is a performance-focused game studio that<br />
-            builds scalable games to help operators boost engagement,<br /> retention, and revenue.</p>
+          <p className={headerStyles.header__describe}>
+            Dominator Play is a performance-focused game studio that
+            <br />
+            builds scalable games to help operators boost engagement,
+            <br /> retention, and revenue.
+          </p>
 
           <button className={headerStyles.header__start}>Dominate Now</button>
         </div>
       </div>
     </header>
   );
-}
+};
 
 export default Header;

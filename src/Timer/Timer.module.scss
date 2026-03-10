@@ -32,7 +32,6 @@
     font-weight: 600;
     font-size: 11cqw;
     line-height: 60px;
-
     letter-spacing: 0;
     color: #ffffff80;
     position: relative;
@@ -53,7 +52,7 @@
     left: -80cqw;
     opacity: 0.5;
 
-    @media (min-width: 1920px) {
+    @media (width >= 1920px) {
       left: -405px;
     }
 
@@ -61,22 +60,22 @@
   }
 
   &__hour {
-    color: #FFFFFF;
+    color: #fff;
     position: relative;
     right: 67.66cqw;
     top: 39px;
 
-    @media (min-width: 1920px) {
+    @media (width >= 1920px) {
       right: 330px;
     }
   }
 
   &__minutes {
-    color: #FFFFFF;
+    color: #fff;
     position: relative;
     right: 60cqw;
 
-    @media (min-width: 1920px) {
+    @media (width >= 1920px) {
       right: 280px;
     }
 
@@ -84,19 +83,14 @@
   }
 
   &__seconds {
-    color: #FFFFFF;
+    color: #fff;
     position: relative;
     right: 45.04cqw;
 
-    @media (min-width: 1920px) {
+    @media (width >= 1920px) {
       right: 245px;
     }
 
     top: 39px;
   }
 }
-
-// .position--2 {
-//   position: absolute;
-//   top: 40px;
-// }

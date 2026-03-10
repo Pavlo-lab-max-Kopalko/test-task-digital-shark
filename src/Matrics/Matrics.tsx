@@ -1,4 +1,4 @@
-import matrcsStyles from './Matrics.module.scss';
+import matrcsStyles from "./Matrics.module.scss";
 
 const Matrics = () => {
   return (
@@ -14,28 +14,43 @@ const Matrics = () => {
         </div>
 
         <div className={matrcsStyles.matrics__middleBlock}>
-
-          <div className={`${matrcsStyles.matrics__middleBlockWrapper} ${matrcsStyles.matrics__middleBlockWrapper__1}`}>
-            <div className={matrcsStyles.matrics__middleBlockDescribe}>ALL MAJOR CRYPTO</div>
+          <div
+            className={`${matrcsStyles.matrics__middleBlockWrapper} ${matrcsStyles.matrics__middleBlockWrapper__1}`}
+          >
+            <div className={matrcsStyles.matrics__middleBlockDescribe}>
+              ALL MAJOR CRYPTO
+            </div>
           </div>
 
-          <div className={`${matrcsStyles.matrics__middleBlockWrapper} ${matrcsStyles.matrics__middleBlockWrapper__2}`}>
-            <div className={matrcsStyles.matrics__middleBlockDescribe}>GLOBAL FIAT COVERAGE</div>
+          <div
+            className={`${matrcsStyles.matrics__middleBlockWrapper} ${matrcsStyles.matrics__middleBlockWrapper__2}`}
+          >
+            <div className={matrcsStyles.matrics__middleBlockDescribe}>
+              GLOBAL FIAT COVERAGE
+            </div>
           </div>
         </div>
 
         <div className={matrcsStyles.matrics__thirdBlock}>
-          <div className={`${matrcsStyles.matrics__thirdBlockWrapper} ${matrcsStyles.matrics__thirdBlockWrapper__1}`}>
+          <div
+            className={`${matrcsStyles.matrics__thirdBlockWrapper} ${matrcsStyles.matrics__thirdBlockWrapper__1}`}
+          >
             <div className={matrcsStyles.matrics__thirdBlockTitle}>16+</div>
-            <div className={matrcsStyles.matrics__thirdBlockDescribe}>LANGUAGES</div>
+            <div className={matrcsStyles.matrics__thirdBlockDescribe}>
+              LANGUAGES
+            </div>
           </div>
 
-          <div className={`${matrcsStyles.matrics__thirdBlockWrapper} ${matrcsStyles.matrics__thirdBlockWrapper__2}`}>
-            <div className={matrcsStyles.matrics__thirdBlockDescribe__2}>mobile<br /> first</div>
+          <div
+            className={`${matrcsStyles.matrics__thirdBlockWrapper} ${matrcsStyles.matrics__thirdBlockWrapper__2}`}
+          >
+            <div className={matrcsStyles.matrics__thirdBlockDescribe__2}>
+              mobile
+              <br /> first
+            </div>
           </div>
         </div>
       </div>
-
     </section>
   );
 };

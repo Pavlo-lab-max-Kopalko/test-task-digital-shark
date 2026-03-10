@@ -1,7 +1,7 @@
 .upcoming {
   margin-inline: 120px;
 
-  @media(min-width: 1920px) {
+  @media (width >= 1920px) {
     width: 1676px;
     margin: 0 auto;
   }
@@ -51,7 +51,7 @@
     object-fit: cover;
     border-radius: 8px;
 
-    @media(min-width: 1920px) {
+    @media (width >= 1920px) {
       width: 544px;
     }
   }
@@ -65,11 +65,11 @@
     height: auto;
     aspect-ratio: 544 / 602;
     object-fit: cover;
-    background: linear-gradient(135deg, #F33F7F 0%, #5A1F3300 100%);
+    background: linear-gradient(135deg, #f33f7f 0%, #5a1f3300 100%);
     flex-direction: column;
     border-radius: 8px;
 
-    @media(min-width: 1920px) {
+    @media (width >= 1920px) {
       width: 544px;
     }
   }
@@ -86,13 +86,13 @@
   }
 
   &__button {
-    transition: transform .7s;
+    transition: transform 0.7s;
 
     &:hover {
       transform: scale(1.09);
-      transition: transform .7s;
+      transition: transform 0.7s;
     }
-    
+
     padding: 33px 84px;
     width: fit-content;
     background-color: #ff4f8b;

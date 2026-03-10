@@ -35,9 +35,9 @@
     justify-content: center;
     align-items: center;
   }
-  
-  &__blockTitle, 
-  &__blockDescribe, 
+
+  &__blockTitle,
+  &__blockDescribe,
   &__thirdBlockTitle__2,
   &__thirdBlockTitle,
   &__middleBlockDescribe,
@@ -51,7 +51,7 @@
     letter-spacing: 0;
     text-align: center;
   }
-  
+
   &__blockTitle {
     font-size: 60px;
     line-height: 90px;
@@ -139,13 +139,13 @@
   &__block,
   &__middleBlockWrapper,
   &__thirdBlockWrapper {
-    transition: transform .4s;
+    transition: transform 0.4s;
     border-radius: 8px;
     cursor: pointer;
 
     &:hover {
       transform: scale(1.05);
-      transition: transform .7s;
+      transition: transform 0.7s;
     }
   }
 }

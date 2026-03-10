@@ -1,5 +1,5 @@
-import loaderStyles from './Loader.module.scss';
-import loaderPositionStyles from './LoaderPosition.module.scss';
+import loaderStyles from "./Loader.module.scss";
+import loaderPositionStyles from "./LoaderPosition.module.scss";
 
 interface TimerProps {
   className?: string;
@@ -7,9 +7,10 @@ interface TimerProps {
 
 const Loader = ({ className }: TimerProps) => {
   return (
-    <div className={`${loaderStyles.loader} ${loaderPositionStyles[`${className}`]}`}>
-      <div className={loaderStyles.loader__line}>
-      </div>
+    <div
+      className={`${loaderStyles.loader} ${loaderPositionStyles[`${className}`]}`}
+    >
+      <div className={loaderStyles.loader__line}></div>
     </div>
   );
 };

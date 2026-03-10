@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 html {
   height: 100vh;
@@ -9,7 +9,7 @@ body {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   overflow-x: hidden;
 }
 
@@ -19,7 +19,7 @@ body {
 
   --main-text-color: #fff;
   --second-text-color: #ffeded;
-  --main-font: 'Inter', sans-serif;
+  --main-font: "Inter", sans-serif;
 }
 
 button {
@@ -38,13 +38,19 @@ button img {
   display: block;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
   font-weight: inherit;
@@ -58,9 +64,9 @@ p {
 }
 
 a {
-  text-decoration: none; 
+  text-decoration: none;
   color: inherit;
   cursor: pointer;
-  transition: all 0.3s ease; 
-  -webkit-tap-highlight-color: transparent; 
+  transition: all 0.3s ease;
+  -webkit-tap-highlight-color: transparent;
 }

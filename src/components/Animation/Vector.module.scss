@@ -1,0 +1,22 @@
+.forward {
+  animation-direction: normal;
+}
+
+.back {
+  animation-direction: reverse;
+}
+
+.forwardPlus {
+  animation: slide-plus 20s linear infinite;
+  animation-direction: normal;
+}
+
+@keyframes slide-plus {
+  0% {
+    transform: translateX(calc(-100% - 80px));
+  }
+
+  100% {
+    transform: translateX(100vw);
+  }
+}
