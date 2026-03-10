@@ -1,0 +1,71 @@
+.dominator {
+  margin-inline: 120px;
+
+  @media(min-width: 1920px) {
+    width: 1676px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin-top: 120px;
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 0;
+
+    color: var(--main-text-color);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  &__describe {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 34px;
+    line-height: 34px;
+    letter-spacing: 0;
+    color: var(--second-text-color);
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  &__wrapper {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__card {
+    padding-inline: 48px;
+    width: 408px;
+    min-height: 336px;
+
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    background: linear-gradient(135deg, #F33F7F96 0%, #5A1F3300 100%);
+  }
+
+  &__cardName {
+    font-family: var(--main-font);
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0;
+    margin-bottom: 40px;
+    margin-top: 176px;
+    word-break: break-all;
+  }
+
+  &__cardDescribe {
+    font-family: var(--main-font);
+    color: var(--second-text-color);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0;
+    word-break: break-all;
+  }
+}

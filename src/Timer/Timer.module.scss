@@ -1,0 +1,102 @@
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: fit-content;
+
+  &__wrapper {
+    width: fit-content;
+    position: absolute;
+    z-index: 1;
+  }
+
+  &__zeros {
+    color: #00000080;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 11cqw;
+    line-height: 70px;
+    letter-spacing: 0;
+    display: flex;
+    align-items: center;
+
+    &__darkNumbers {
+      color: #ff4f8b;
+      font-size: 11cqw;
+    }
+  }
+
+  &__twoPoints {
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 11cqw;
+    line-height: 60px;
+
+    letter-spacing: 0;
+    color: #ffffff80;
+    position: relative;
+    top: -6px;
+  }
+
+  &__time {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-style: bold;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+
+  &__day {
+    position: relative;
+    left: -80cqw;
+    opacity: 0.5;
+
+    @media (min-width: 1920px) {
+      left: -405px;
+    }
+
+    top: 39px;
+  }
+
+  &__hour {
+    color: #FFFFFF;
+    position: relative;
+    right: 67.66cqw;
+    top: 39px;
+
+    @media (min-width: 1920px) {
+      right: 330px;
+    }
+  }
+
+  &__minutes {
+    color: #FFFFFF;
+    position: relative;
+    right: 60cqw;
+
+    @media (min-width: 1920px) {
+      right: 280px;
+    }
+
+    top: 39px;
+  }
+
+  &__seconds {
+    color: #FFFFFF;
+    position: relative;
+    right: 45.04cqw;
+
+    @media (min-width: 1920px) {
+      right: 245px;
+    }
+
+    top: 39px;
+  }
+}
+
+// .position--2 {
+//   position: absolute;
+//   top: 40px;
+// }

@@ -1,0 +1,14 @@
+.loader {
+  border: 2px solid #5a1f33;
+  border-radius: 8px;
+  width: 384px;
+
+  &__line {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+    width: 345px;
+    height: 15px;
+    background-color: #ff4f8b;
+  }
+}
