@@ -37,9 +37,14 @@
   }
 
   &__card {
-    padding-inline: 48px;
+    padding-inline: 40px;
+    padding-bottom: 40px;
     width: 408px;
     min-height: 336px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 
     box-sizing: border-box;
     border-radius: 8px;

@@ -12,6 +12,8 @@
 }
 
 @keyframes slidePlus {
-  0% { transform: translateX(calc(-100% + 80px)); }
+  0% { transform: translateX(calc(-100% - 80px)); }
   100% { transform: translateX(100vw); }
 }
+
+

@@ -1,6 +1,15 @@
 .topBar {
   margin: 71px 120px 87px;
 
+  &__logo {
+    transition: transform .7s;
+
+    &:hover {
+      transform: scale(1.09);
+      transition: transform .7s;
+    }
+  }
+
   &__navigation {
     display: flex;
     flex-direction: row;

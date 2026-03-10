@@ -8,6 +8,13 @@
   }
 
   &__rectangle {
+    transition: transform .7s;
+
+    &:hover {
+      transform: scale(1.09);
+      transition: transform .7s;
+    }
+    
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -44,5 +44,12 @@
     padding: 32px 71.5px;
     background-color: #ff4f8b;
     border-radius: 8px;
+
+    transition: transform .7s;
+
+    &:hover {
+      transform: scale(1.09);
+      transition: transform .7s;
+    }
   }
 }

@@ -7,8 +7,6 @@ import eightinPlus from './../assets/general-logos/Auto Layout Vertical.svg';
 const Footer = () => {
   return (
     <footer className={footerStyles.footer}>
-      <h2 className={footerStyles.footer__title}></h2>
-
       <div className={footerStyles.footer__wrapper}>
         <div className={footerStyles.footer__blockWrapper}>
           <img src={logoPath} alt="" className={footerStyles.footer__logo} />

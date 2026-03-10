@@ -54,5 +54,12 @@
   &__icon {
     width: 24px;
     height: 24px;
+
+    transition: transform .7s;
+
+    &:hover {
+      transform: scale(1.2);
+      transition: transform .7s;
+    }
   }
 }

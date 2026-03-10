@@ -12,7 +12,7 @@ const Dominator = () => {
       <div className={dominatorStyles.dominator__wrapper}>
         <div className={dominatorStyles.dominator__card}>
           <h3 className={dominatorStyles.dominator__cardName}>
-            Full Customization:
+            Full<br /> Customization:
           </h3>
 
           <p className={dominatorStyles.dominator__cardDescribe}>RTP, Volatility & Branding</p>
@@ -20,20 +20,20 @@ const Dominator = () => {
         <div className={dominatorStyles.dominator__card}>
           <h3 className={dominatorStyles.dominator__cardName}>Mobile-First</h3>
 
-          <p className={dominatorStyles.dominator__cardDescribe}>Development Powered by Product Analytics</p>
+          <p className={dominatorStyles.dominator__cardDescribe}>Development Powered by<br /> Product Analytics</p>
         </div>
         <div className={dominatorStyles.dominator__card}>
           <h3 className={dominatorStyles.dominator__cardName}>Progression</h3>
 
           <p className={dominatorStyles.dominator__cardDescribe}>
-            Gamification Built for Retention & LTV
+            Gamification Built for<br /> Retention & LTV
           </p>
         </div>
         <div className={dominatorStyles.dominator__card}>
-          <h3 className={dominatorStyles.dominator__cardName}>Operator Growth</h3>
+          <h3 className={dominatorStyles.dominator__cardName}>Operator<br /> Growth</h3>
 
           <p className={dominatorStyles.dominator__cardDescribe}>
-            Support Through Content & Promotions
+            Support Through<br /> Content & Promotions
           </p>
         </div>
       </div>

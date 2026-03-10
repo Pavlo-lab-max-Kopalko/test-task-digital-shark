@@ -4,7 +4,7 @@
   &__wrapper {
     width: 1280px;
 
-    @media (min-widht: 1920px) {
+    @media (min-width: 1920px) {
       width: 1680px;
     }
 
@@ -78,6 +78,28 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0;
+    position: relative;
+    width: min-content;
+
+    &::after {
+      content: "";
+      transform-origin: center;
+      background-color: blue;
+      border-radius: 1px;
+      width: 100%;
+      height: 2px;
+      transition: transform .3s;
+      display: block;
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      right: 0;
+      transform: scale(0);
+    }
+
+    &:hover::after {
+      transform: scale(1);
+    }
   }
 
   &__blockTitle {
@@ -93,7 +115,7 @@
   &__linearUnder {
     width: 1280px;
 
-    @media (min-widht: 1920px) {
+    @media (min-width: 1920px) {
       width: 1680px;
     }
 
@@ -119,5 +141,14 @@
     display: block;
     width: fit-content;
     margin: 0 auto;
+  }
+
+  &__logo, &__eightin, &__insta, &__linkedin {
+    transition: transform .7s;
+
+    &:hover {
+      transform: scale(1.2);
+      transition: transform .7s;
+    }
   }
 }
